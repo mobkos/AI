@@ -1,13 +1,13 @@
 
-if [["$1"]]; then
-if [ -f "$1" ]; then
-git add "$1"
+if ["$1"]; then
+	if [ -f "$1" ]; then
+		git add "$1"
+	else
+		echo "파일이 존재하지않음"
+		exit 1
+	fi
 else
-echo "파일이 존재하지않음"
-exit 1
-fi
-else
-git add .
+	git add .
 fi
 
 git commit -m "Auto commit"
