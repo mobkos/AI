@@ -1,0 +1,18 @@
+echo "hello"
+
+Myname="mobkos"
+Mynumber="010-1111-9999"
+Myaddr="korea"
+
+echo $Myname $Mynumber
+
+
+# cmd a1 a2 a3
+# $$  $1 $2 $3
+
+echo "명령어 : " $$ 
+echo "인수1 : " $1
+echo "인수 2:" $2
+
+
+
