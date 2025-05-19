@@ -2,6 +2,7 @@
 
 main()
 {
-	printf("양키고홈!!!!!!!\n");
+	printf("fuckkckckck!!!!!!!\n");
+
 	return 0;
 }
