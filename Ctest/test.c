@@ -4,10 +4,7 @@ main()
 {
 	printf("fuckkckckck!!!!!!!\n");
 
-	printf("new version\n");
-
-
-	printf("new version"); //in github
+	printf("new sidae"); //in github
 
 	return 0;
 }
